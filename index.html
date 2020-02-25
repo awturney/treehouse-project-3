@@ -116,19 +116,30 @@
 
 </fieldset>
 
-<fieldset>
+<fieldset class="main_2">
 
 <legend class="newsletter">Newsletter</legend>
 
 <label>Select the newsletters you would like to receive</label><br>
-<input type="checkbox" id="html_news" for="html_news" name="select_newsletter" value="html_news"><label>HTML News</label><br>
-<input type="checkbox" id="css_news" for="css_news" name="select_newsletter" value="css_news"><label>CSS News</label><br>
-<input type="checkbox" id="javascript_news" for="javascript_news" name="select_newsletter" value="javascript_news"><label>Javascript News</label><br>
+
+<input type="checkbox" id="html" name="select_newsletter" value="html_news">
+<label for="html">HTML News</label><br>
+
+<input type="checkbox" id="css" name="select_newsletter" value="css_news">
+<label for="css">CSS News</label><br>
+
+<input type="checkbox" id="javascript" name="select_newsletter" value="javascript_news">
+<label for="javascript">Javascript News</label><br>
 
 <div class="format">
 <label>Newsletter format</label><br>
-   <input type="radio" id="html_format" value="html_format" name="select_format"><label for="html_format">HTML</label><br>
-   <input type="radio" id="plain_text_format" value="plain_text_format" name="select_format"><label for="plain_text_format">Plain text</label><br>
+
+   <input type="radio" id="html_format" value="html_format" name="select_format">
+   <label for="html_format">HTML</label><br>
+
+   <input type="radio" id="plain_text_format" value="plain_text_format" name="select_format">
+   <label for="plain_text_format">Plain text</label><br>
+
 </div>
 
    <label for="other">Other topics you'd like to hear about</label>
